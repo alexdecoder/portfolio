@@ -1,6 +1,6 @@
 FROM node:latest as build
 WORKDIR /portfolio
-COPY ./ /portfolio//
+COPY ./ /portfolio/
 RUN npm install
 RUN npm run build
 
