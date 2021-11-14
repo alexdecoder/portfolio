@@ -1,4 +1,4 @@
-FROM node:latest as build
+FROM node:lts-alpine3.14 as build
 WORKDIR /portfolio
 COPY ./ /portfolio/
 RUN npm install
