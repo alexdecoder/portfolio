@@ -1,18 +1,30 @@
 :host {
-    background-color: #121128;
-
     width: 100%;
     min-height: 100%;
 
     position: relative;
 }
-
-.highlightbox {
-    background-color: #003cbe;
-
-    width: 30%;
-    height: 59%;
-
+.contentwrapper {
     position: absolute;
-    right: 0;
+
+    width: 100%;
+
+    height: 95%;
+
+    overflow: hidden;
+}
+.contentwrapper::after {
+    border-radius: 100%;
+
+    background-color: #211d45;
+    
+    position: absolute;
+    right: -40%;
+    left: -40%;
+    top: -50%;
+    bottom: 0;
+
+    z-index: -100;
+
+    content: '';
 }
