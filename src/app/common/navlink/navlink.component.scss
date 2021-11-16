@@ -1,0 +1,26 @@
+div {
+    font-size: 125%;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    color: currentColor;
+
+    padding: 1em 2em;
+
+    transition: all .125s ease;
+
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+a:hover {
+    div {
+        transform: translate(0, 5px);
+    }
+}
+div:hover {
+    background-color: rgba(54, 18, 171, .5);
+}

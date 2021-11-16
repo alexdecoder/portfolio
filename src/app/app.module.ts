@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { HeaderComponent } from './index/header/header.component';
 import { NavComponent } from './common/nav/nav.component';
+import { NavlinkComponent } from './common/navlink/navlink.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { NavComponent } from './common/nav/nav.component';
     IndexComponent,
     HeaderComponent,
     NavComponent,
+    NavlinkComponent,
   ],
   imports: [
     BrowserModule,
