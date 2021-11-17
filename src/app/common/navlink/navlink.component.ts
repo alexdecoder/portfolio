@@ -14,4 +14,5 @@ export class NavlinkComponent implements OnInit {
 
   @Input() title!: string;
   @Input() href!: string;
+  @Input() resume!: boolean;
 }

@@ -1,12 +1,15 @@
 div {
-    font-size: 125%;
+    font-size: 115%;
     font-weight: 600;
+
+    display: flex;
+    align-items: center;
 
     cursor: pointer;
 
     color: currentColor;
 
-    padding: 1em 2em;
+    padding: .75em 2em;
 
     transition: all .125s ease;
 
@@ -22,5 +25,13 @@ a:hover {
     }
 }
 div:hover {
-    background-color: rgba(54, 18, 171, .5);
+    background-color: rgba(5, 95, 252, .1);
+}
+
+.resume {
+    background-color: #003cbe;
+    color: white;
+}
+.resume:hover {
+    background-color: rgba(0, 60, 190, .7);
 }
