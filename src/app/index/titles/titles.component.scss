@@ -1,0 +1,28 @@
+:host {
+    color: white;
+
+    .contentwrapper {
+        padding: 10% 7%;
+    }
+
+    position: relative;
+    .herowrapper {
+        position: absolute;
+        z-index: -100;
+        background-color: #1d53ff;
+
+        width: 100%;
+        height: 100%;
+
+        img:first-child {
+            position: absolute;
+            right: 0;
+        }
+        img:last-child {
+            position: absolute;
+            bottom: 0;
+
+            height: 50%;
+        }
+    }
+}

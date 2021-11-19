@@ -1,0 +1,37 @@
+:host {
+    a {
+        cursor: pointer;
+
+        padding: .75em 2em;
+
+        transition: all .125s ease;
+
+        border-radius: 5px;
+
+        text-decoration: none;
+        background-color: #003cbe;
+        color: white;
+        font-weight: 600;
+        font-size: 115%;
+
+        box-sizing: border-box;
+
+        display: inline-block;
+    }
+    a:hover {
+        background-color: rgba(0, 60, 190, .7);
+
+        transform: translateY(5px);
+    }
+
+    display: block;
+    height: 55px;
+
+    .outline {
+        background-color: transparent;
+        color: currentColor;
+    }
+    .outline:hover {
+        background-color: rgba(5, 95, 252, .1);
+    }
+}

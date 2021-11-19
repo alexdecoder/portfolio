@@ -7,6 +7,8 @@ import { IndexComponent } from './index/index.component';
 import { HeaderComponent } from './index/header/header.component';
 import { NavComponent } from './common/nav/nav.component';
 import { NavlinkComponent } from './common/navlink/navlink.component';
+import { ButtonComponent } from './common/elements/button/button.component';
+import { TitlesComponent } from './index/titles/titles.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { NavlinkComponent } from './common/navlink/navlink.component';
     HeaderComponent,
     NavComponent,
     NavlinkComponent,
+    ButtonComponent,
+    TitlesComponent,
   ],
   imports: [
     BrowserModule,
